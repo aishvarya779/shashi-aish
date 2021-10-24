@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shashi-aish';
+  showCard = false;
+
+  joinParty() {
+    this.showCard = true;
+  }
 }
